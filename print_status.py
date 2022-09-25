@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import serial
+# Rareblog http://blog.rareschool.com/2021/01/controlling-raspberry-pi-pico-using.html
 
 class Talker:
     TERMINATOR = '\r'.encode('UTF8')
