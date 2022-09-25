@@ -6,5 +6,8 @@
 ## From a standard Pi
 * print_state.py
   will print a json line, showing the light states.
-* toggle.py <number>
-  will print a json line, showing the light states.
+* Toggle a lights state using the switch name defined in main.py (I used 0..4)
+```
+./toggle.py <switch_name>
+```
+ 
